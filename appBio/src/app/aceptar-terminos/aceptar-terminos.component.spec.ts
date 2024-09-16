@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { FormulaRegistroComponent } from './formula-registro.component';
+import { AceptarTerminosComponent } from './aceptar-terminos.component';
 
-describe('FormulaRegistroComponent', () => {
-  let component: FormulaRegistroComponent;
-  let fixture: ComponentFixture<FormulaRegistroComponent>;
+describe('AceptarTerminosComponent', () => {
+  let component: AceptarTerminosComponent;
+  let fixture: ComponentFixture<AceptarTerminosComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [FormulaRegistroComponent]
+      imports: [AceptarTerminosComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(FormulaRegistroComponent);
+    fixture = TestBed.createComponent(AceptarTerminosComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
