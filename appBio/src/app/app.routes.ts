@@ -3,7 +3,4 @@ import { Routes } from '@angular/router';
 import path from 'node:path';
 import { FormulaRegistroComponent } from './registro/formula-registro/formula-registro.component';
 
-export const routes: Routes = [
-    {path:"formulario", component:FormulaRegistroComponent}
-
-];
+export const routes: Routes = [];
