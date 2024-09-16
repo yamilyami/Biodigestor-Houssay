@@ -1,0 +1,58 @@
+.hero-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-text {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  text-align: center;
+}
+
+p.hero-subtitle {
+  font-size: 1.7rem;
+  text-shadow: 2px 2px 10px rgb(0, 0, 0);
+}
+
+.hero-title {
+  font-size: 2rem;
+  font-weight: 400;
+  color: white;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+.hero-title span {
+  font-weight: bold;
+  color: #00ff00;
+}
+
+.card {
+  background: #389B33;
+}
+
+.card-header {
+  border-bottom: none;
+}
+
+.card-title {
+  color: #292626;
+}
+
+.card-text {
+  color: #FFF;
+}
+
+.logo-medio-ambiente {
+  width: 4rem;
+}
