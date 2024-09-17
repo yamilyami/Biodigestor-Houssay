@@ -73,10 +73,19 @@ p.hero-subtitle {
   width: 20rem;
 }
 
+.img-about-us {
+  width: 25rem;
+}
+
 /* COLOR Y ESTILO DE PALABRAS DESTACADAS */
 span {
   color: #1ca814;
   font-weight: bolder;
+}
+
+.btn {
+  background: #1ca814;
+  color: #FFF;
 }
 
 /* Diseño para responsivo */
@@ -89,7 +98,15 @@ span {
     text-align: center;
   }
 
+  .img-clients {
+    width: 15rem;
+  }
+
   .body-clients {
     margin-top: 1rem;
+  }
+
+  .container-about-us {
+    text-align: center;
   }
 }
