@@ -1,3 +1,4 @@
+/* HERO */
 .hero-container {
   position: relative;
   width: 100%;
@@ -37,8 +38,18 @@ p.hero-subtitle {
   color: #00ff00;
 }
 
+/* CARDS */
+.title-cards-elegirnos {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #045410;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.377);
+}
+
 .card {
   background: #389B33;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.377);
+  border: none;
 }
 
 .card-header {
@@ -55,4 +66,30 @@ p.hero-subtitle {
 
 .logo-medio-ambiente {
   width: 4rem;
+}
+
+/* CLIENTS SECTION */
+.img-clients {
+  width: 20rem;
+}
+
+/* COLOR Y ESTILO DE PALABRAS DESTACADAS */
+span {
+  color: #1ca814;
+  font-weight: bolder;
+}
+
+/* Diseño para responsivo */
+@media (width <=768px) {
+  .title-cards-elegirnos {
+    font-size: 2.2rem;
+  }
+
+  .container-clients {
+    text-align: center;
+  }
+
+  .body-clients {
+    margin-top: 1rem;
+  }
 }
