@@ -1,3 +1,4 @@
+
 node_modules/@popperjs/core/dist/cjs/enums.js
 node_modules/@popperjs/core/dist/cjs/enums.js.flow
 node_modules/@popperjs/core/dist/cjs/enums.js.map
@@ -618,3 +619,5 @@ node_modules/jquery/src/var/splice.js
 node_modules/jquery/src/var/support.js
 node_modules/jquery/src/var/toString.js
 node_modules/jquery/src/var/whitespace.js
+appBio/src/app/aceptar-terminos/a.txt
+

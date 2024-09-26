@@ -8,4 +8,9 @@ export const routes: Routes = [
     {path:"formulario", component:Registro01Component },
     {path:"registro", component:Registro01Component },
     {path:"Somos", component:QuienesSOmos01Component }
+
+/* import { FormulaRegistroComponent } from './registro/formula-registro/formula-registro.component'; */
+
+export const routes: Routes = [
+  /* {path:"formulario", component:FormulaRegistroComponent} */
 ];
