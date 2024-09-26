@@ -1,7 +1,7 @@
 body {
     margin: 0;
     height: 100vh;
-    background-image: url('./foto/jardin.jpg'); /* Asegúrate de que la ruta sea correcta */
+    background-image: url('./foto/con_lamparita.jpeg'); /* Asegúrate de que la ruta sea correcta */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -22,6 +22,10 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+.formulario-card {
+    max-width: 800px; /* Ajusta el ancho máximo según lo desees */
+    margin: 0 auto; /* Centra la tarjeta */
+}
 
 
 
