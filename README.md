@@ -1,1 +1,2 @@
-Mariano Oliva Hola
+Mariano Oliva Hola 
+Jeremias Vergara
