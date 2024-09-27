@@ -1,35 +1,11 @@
-<div class="container mt-5 position-relative">
+<div class="container mt-5 position-relative"> 
     <img src="con_lamparita.jpeg" alt="imagen fondo login" style="width: 100%; height: auto;">
-    <div class="row justify-content-center position-absolute" style="top: 15%; left: -23%;">
+    <div class="row justify-content-center position-absolute" style="top: 30%; left: -23%;">
         <div class="col-md-6 col-lg-6"> 
             <div class="card shadow-sm" style="background-color: rgba(237, 245, 233, 0.041);">
                 <div class="card-body" style="color: #000000;"> 
-                    <h2 class="card-title text-center mb-4">Iniciar Sesión</h2>
+                    <h2 class="card-title text-center mb-4">Aceptar Términos y Condiciones</h2>
                     <form (ngSubmit)="onSubmit()" #loginForm="ngForm">
-                        <div class="form-group">
-                            <label for="usuario">Usuario:</label>
-                            <input
-                                type="text"
-                                id="usuario"
-                                class="form-control"
-                                placeholder="Ingrese su usuario"
-                                ngModel
-                                name="usuario"
-                                required
-                            />
-                        </div>
-                        <div class="form-group">
-                            <label for="contraseña">Contraseña:</label>
-                            <input
-                                type="password"
-                                id="contraseña"
-                                class="form-control"
-                                placeholder="Ingrese su contraseña"
-                                ngModel
-                                name="contraseña"
-                                required
-                            />
-                        </div>
                         <div class="form-group">
                             <small class="form-text" style="color: #000000; font-weight: bold;">
                                 Al registrarte, aceptas nuestros términos y condiciones de uso, así como nuestra política de privacidad. Te recomendamos leer detenidamente estos documentos antes de continuar.
@@ -45,7 +21,7 @@
                             <label for="aceptar-terminos">Aceptar términos y condiciones</label>
                         </div>
                         <button type="submit" class="btn btn-primary btn-block mt-3" [disabled]="!loginForm.form.valid">
-                            Iniciar sesión
+                            Aceptar
                         </button>
                     </form>
                 </div>
@@ -53,6 +29,7 @@
         </div>
     </div>
 </div>
+
 
 
 

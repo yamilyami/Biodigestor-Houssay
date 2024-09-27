@@ -1,9 +1,8 @@
-<div class="container mt-5 position-relative">
+<div class="container-fluid mt-5 position-relative"> <!-- Cambiado a container-fluid -->
     <img src="con_lamparita.jpeg" alt="imagen fondo registro" style="width: 100%; height: auto;">
     <div class="row justify-content-center position-absolute" style="top: 25%; left: 20%;">
-        <div class="col-md-14 col-lg-16"> 
+        <div class="col-md-12 col-lg-12">  <!-- Puedes ajustar esto si es necesario -->
             <div class="card shadow-sm" style="background-color: rgba(255, 255, 255, 0.2);">
-
                 <div class="card-body">
                     <h2 class="card-title text-center mb-4">Registro</h2>
                     <form (ngSubmit)="onSubmit()" #registroForm="ngForm">
@@ -25,7 +24,7 @@
                                 type="email"
                                 id="email"
                                 class="form-control"
-                                placeholder="Ingrese su correo electrónico"
+                                placeholder="Ingrese su email"
                                 [(ngModel)]="usuario.email"
                                 name="email"
                                 required
@@ -52,6 +51,7 @@
         </div>
     </div>
 </div>
+
 
 
 

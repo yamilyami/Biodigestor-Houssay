@@ -1,31 +1,22 @@
-body {
-    margin: 0;
-    height: 100vh;
-    background-image: url('./foto/con_lamparita.jpeg'); /* Asegúrate de que la ruta sea correcta */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.container {
-    position: relative;
-    z-index: 1;
-    background-color: rgba(255, 255, 255, 0); /* Fondo completamente transparente */
-    border-radius: 10px;
-    padding: 20px;
-    margin-top: 100px; /* Ajusta según sea necesario */
-}
-
 .card {
     background-color: rgba(255, 255, 255, 0.9); /* Fondo del card semitransparente */
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Sombra más intensa */
+    padding: 30px; /* Agregar espacio interno */
 }
 
-.formulario-card {
-    max-width: 800px; /* Ajusta el ancho máximo según lo desees */
-    margin: 0 auto; /* Centra la tarjeta */
+.card-title {
+    margin-bottom: 20px; /* Espaciado adicional */
 }
+
+.btn {
+    transition: background-color 0.3s; /* Transición suave */
+}
+
+.btn:hover {
+    background-color: #038412; /* Color más oscuro al pasar el mouse */
+}
+
 
 
 
