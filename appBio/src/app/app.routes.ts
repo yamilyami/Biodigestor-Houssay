@@ -11,6 +11,6 @@ export const routes: Routes = [
 
 /* import { FormulaRegistroComponent } from './registro/formula-registro/formula-registro.component'; */
 
-export const routes: Routes = [
+/*export const routes: Routes = [
   /* {path:"formulario", component:FormulaRegistroComponent} */
 ];
