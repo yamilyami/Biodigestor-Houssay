@@ -7,12 +7,13 @@ import { RegistroComponent } from "./registro/registro.component";
 import { AceptarTerminosComponent } from "./aceptar-terminos/aceptar-terminos.component";
 import { RestablecerContrasenaComponent } from './restablecer-contrasena/restablecer-contrasena.component';
 import { FormsModule } from '@angular/forms';
+import { QuienessomosComponent } from "./QuienesSomos/quienessomos/quienessomos.component";
 
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, NadvarComponent, HomePageComponent, FooterComponent, RegistroComponent, AceptarTerminosComponent],
+  imports: [RouterOutlet, NadvarComponent, HomePageComponent, FooterComponent, RegistroComponent, AceptarTerminosComponent, QuienessomosComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

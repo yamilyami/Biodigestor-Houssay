@@ -3,11 +3,11 @@ import { Routes } from '@angular/router';
 import { RegistroComponent } from './registro/registro.component';
 
 import { AceptarTerminosComponent } from './aceptar-terminos/aceptar-terminos.component';
-import { RestablecerContrasenaComponent } from './restablecer-contrasena/restablecer-contrasena.component';
+import { RestablecerContrasenaComponent } from './restablecer-contrasena/restablecer-contrasena.component'; 
 
 import { QuienessomosComponent } from './QuienesSomos/quienessomos/quienessomos.component';
 import path from 'node:path';
-/* import { FormulaRegistroComponent } from './registro/formula-registro/formula-registro.component'; */
+/* import { FormulaRegistroComponent } from './registro/formula-registro/formula-registro.component';
 
 //export const routes: Routes = [];*/
 
@@ -15,6 +15,7 @@ import path from 'node:path';
 import { Routes } from '@angular/router';
 import { RegistroComponent } from './registro/registro.component';
 import { AceptarTerminosComponent } from './aceptar-terminos/aceptar-terminos.component';
+
 
 export const routes: Routes = [
   { path: 'registro', component: RegistroComponent },
