@@ -8,7 +8,8 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { LoginComponent } from "./login/login.component";
 import { RestablecerContrasenaComponent } from './restablecer-contrasena/restablecer-contrasena.component';
 import { CommonModule } from '@angular/common';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { DashBoardComponent } from './Dash/dash-board/dash-board.component';
 
 
 @Component({
@@ -16,10 +17,12 @@ import { FormsModule } from '@angular/forms';
   standalone: true,
   imports: [RouterOutlet, NadvarComponent, HomePageComponent, 
             FooterComponent, LoginComponent, RestablecerContrasenaComponent, 
-            Registro01Component
+            Registro01Component, ReactiveFormsModule,DashBoardComponent
           ],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+ // styleUrl: './app.component.css'
+ styleUrls: ['assets/css/style.css'] 
+
 })
 export class AppComponent {
   title = 'appBio';
